@@ -4,9 +4,11 @@ package org.example.model;
  * @author FedorMulashkin
  * @link <a href="https://github.com/FedorMulashkin">My GitHub</a>
  */
-public abstract class Food implements Discountable{
+public abstract class Food implements Discountable {
     protected int amount;
+
     protected double price;
+
     protected boolean isVegetarian;
 
     public Food(final int amount, final double price, final boolean isVegetarian) {

@@ -7,7 +7,7 @@ import org.example.model.constants.Discount;
  * @author FedorMulashkin
  * @link <a href="https://github.com/FedorMulashkin">My GitHub</a>
  */
-public class Apple extends Food implements Discountable{
+public class Apple extends Food implements Discountable {
     private String colour;
 
     public Apple(final int amount, final double price, final String colour) {
